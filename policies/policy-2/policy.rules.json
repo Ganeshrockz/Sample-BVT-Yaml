@@ -1,1 +1,0 @@
-{"if":{"field":"type","in":["Microsoft.Compute/virtualMachines","Microsoft.ClassicCompute/virtualMachines"]},"then":{"effect":"auditIfNotExists","details":{"type":"Microsoft.Resources/links","existenceCondition":{"field":"name","like":"ASR-Protect-*"}}}}
